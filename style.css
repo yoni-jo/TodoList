@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section div{
+    
+    display: flex;
+    justify-content: center;
+}
+section ul {
+    
+    width: 300px;
+    margin: 20px auto;
+}
+
+section ul li{
+position: relative;
+text-align: left;
+border-bottom: 1px solid teal;
+align-items: center;
+padding: 5px;
+}
+section ul li>button{
+position: absolute;
+right: 0;
+}
+section ul li>input{
+    position: absolute;
+    right: 50px;
+    }
