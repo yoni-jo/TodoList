@@ -21,8 +21,8 @@ function write() {
     const li = document.createElement('li') //li태그생성
     const checkbox = document.createElement('input') //input태그생성
     const delButton = document.createElement('button') //삭제버튼생성
-    const test = li.appendChild(checkbox).classList.add('checkbox') //생성된 li태그에 checkbox클래스추가
-    const test2 = li.appendChild(delButton).classList.add('del') //생성된 button태그에 del클래스추가
+    li.appendChild(checkbox).classList.add('checkbox') //생성된 li태그에 checkbox클래스추가
+    li.appendChild(delButton).classList.add('del') //생성된 button태그에 del클래스추가
 
     //입력값이 없을경우
     if (text.value === "") {
